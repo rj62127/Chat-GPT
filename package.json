@@ -15,10 +15,10 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "nuxt": "^3.11.1",
-    "openai": "^4.33.0",
-    "pinia": "^2.1.7",
     "nuxt-chatgpt": "^0.2.3",
     "nuxt3-notifications": "^1.2.0",
+    "openai": "^4.33.0",
+    "pinia": "^2.1.7",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
