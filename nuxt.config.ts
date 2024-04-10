@@ -1,9 +1,8 @@
 const OpenAiKey = process.env.OPENAI_API_KEY;
-console.log(OpenAiKey)
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+	devtools: { enabled: false },
 	modules: [
 		'@nuxtjs/tailwindcss',
 		'nuxt-icon',
@@ -13,6 +12,7 @@ export default defineNuxtConfig({
 			preference: 'dark',
 			classSuffix: '',
 		}],
+
 		['@nuxtjs/google-fonts', {
 			families: {
 				Lato: {
@@ -23,6 +23,10 @@ export default defineNuxtConfig({
 		}],
 		'nuxt3-notifications',
 	],
+
+	runtimeConfig: {
+		openAiApiKey: process.env.OPENAI_API_KEY
+	},
 	chatgpt: {
 		apiKey: OpenAiKey,
 	},
